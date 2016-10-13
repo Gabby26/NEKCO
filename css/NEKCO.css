@@ -1,0 +1,491 @@
+@charset "utf-8";
+/* Northeast Kingdom Community Orchestra */
+
+	@font-face {
+       font-family:'cac_champagneregular';
+       src: url('cac_champagne-webfont.eot');
+       src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'), url('cac_champagne-webfont.woff') format('woff'),
+         url('cac_champagne-webfont.ttf') format('truetype'),          url('cac_champagne-webfont.svg#cac_champagneregular') format(         'svg');
+    font-weight: normal;
+    font-style: normal;
+     }
+	 
+	 article, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, li, nav, ol, p, section, table, th, td, ul{
+		 margin:0;
+		 padding:0;
+	 }
+	 
+body{
+	padding: 0;
+	margin: 0;
+	background: #FEFA8B;
+    background:url(http://3.bp.blogspot.com/-olUfeGS0TkU/TwedYTh8USI/AAAAAAAACxg/G6oUlQeYbiU/s400/free%2Bdigital%2Bscrapbook%2Bpaper_music%2Bsheet%2Bcollage_backgound.jpg);
+	/*Fluid Layout*/
+	 min-width:44em;
+	 max-width:60em;
+}
+
+#box{
+	width: 60em;
+	height: 120em;
+	padding: 1em;
+	background:white;
+	border-width:1em;
+	border-color:white;
+	border-style: solid;
+	margin: 75px;
+		  }
+ 
+ h1{
+	  text-align:left;
+	  font-family: "cac_champagneregular", "times new roman", serif;
+	  text-shadow: 0px 1px 0px #858121, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+	  font-size: 3em;
+	  color: yellow;
+	  background: #0B3B0B;
+	  padding: 0.2em;
+      border-color: white;
+	  border-width: 0.2em;
+	  border-style: groove;
+	  margin:10px auto;
+	  width: 90%;
+	  position: relative;
+	   }
+    
+		  
+  #location{
+	font-size: 0.5em;
+	color: white;
+	font-family: "cac_champagneregular", "times new roman", serif;
+		  }
+	
+	.text{
+		color: yellow;
+		font-family: "cac_champagneregular", "times new roman", serif;
+		font-size: 2em;
+		text-align: center;
+		border-color: white;
+		border-width: 0.25em;
+		border-style: groove;
+		padding: 0.1em;
+		background: rgb(0, 82, 0);
+		margin: -65% 5% auto 75%;
+		width: 225px;
+		top: 10px;
+		  }
+	
+	.long{
+		top:5%;
+		color: yellow;
+		font-family:"century gothic", consolas, helvetica, arial, sans-serif;
+		font-size: 1.125em;
+		text-align: center;
+		border-color: white;
+		border-width: 0.25em;
+		border-style: groove;
+		padding: 20px;
+		background: #0B3B0B;
+		width: 20%;
+		height: 20%;
+		position:relative;
+	  }
+	  
+	  #contact{
+	float: right;
+	margin: 70% 20% auto 50%;
+	text-align: center;
+	padding: 0.5em;
+	width: 20%;
+	font-family: "lucida calligraphy", "times new roman", serif;
+	background:#0B3B0B;
+	color: white;
+	position: absolute;
+	border-color: white;
+	border-width: 0.25em;
+	border-style: groove;
+	left: 190px;
+	top: 1040px;
+	
+       }
+		  
+       
+	  #asterisk{
+		  font-family: georgia, "times new roman", times, serif;
+		  font-style: italic;
+		  text-align: center;
+		  color: Gray;
+	  }
+	  
+	 .maintext{
+	    font-family: "lucida calligraphy", "times new roman", serif;
+		font-size: 2em;
+	  	text-align: center;
+		color:black;
+		width: 80%;
+		margin:20px auto;
+			
+	  }
+	  	  
+	  .section{
+		 font-family: "lucida calligraphy", "lucida handwriting",  serif;
+		 font-size: 1.5em;
+		 font-weight: bold;
+		 text-align:center;
+		 color: black;
+		 padding:10px;
+		 margin:0 auto;
+				 
+	  }
+	 
+	 
+	 .list1{
+	  text-align: center;
+	  font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+	  color: darkGreen;
+	  padding:10px;
+	  width: 100%;
+	    }
+		  
+    form{
+	  font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+	  color: yellow;
+	  padding:10px;
+	  width: 100%;
+	  background:white;
+	}
+	
+	label{
+		float:left;
+		width:100px;
+		display:block;
+		clear:left;
+		text-align:right;
+		padding-right:10px;
+		margin-top:10px;
+			}
+	
+	input, text area{
+		margin-top:10px;
+		display:block;
+	}
+	
+	
+	/*Meet the Orchestra columns*/
+	
+		  div#leftColumn
+			{
+				float:left;
+				width:175px;
+			}
+			
+			div#centerColumn
+			{
+				float:left;
+				margin:0px 185px 0px 185px;
+				width: 175px;
+				}
+			div#rightColumn
+			{
+				float:right;
+				width:175px;
+			}
+	  
+	 
+	  .songlist{
+		font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+	  color: yellow;
+	  text-align: justify;
+	  }
+	  
+	  .contactus{
+		  width:500px;
+		  margin: 5% auto;	
+		  float:right;
+		  color:black;	
+	  }
+	  
+	  #interest{
+	font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+	  color: black;
+	  float:left;
+	  position:absolute;
+	  width:400px;
+	  margin: 33% auto;
+	  border-color:gray;
+	  border-style:solid;
+	  border-width:2px;
+	  padding:5px;
+	  text-align:left;
+	    }
+	 	  
+  a:link{
+		  color: Black;
+	  }
+  a:visited{
+		  color: Green;
+	  }
+	  	  
+  a:hover{
+		  color: Gray;
+	  }
+  a:active{
+		  color: LawnGreen;
+	  }
+	  
+	  /*Main Navigation*/	  
+	  #mainnav{
+		   font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+		   font-size:1.15em;
+		   width:85%;
+		   margin: 30px auto auto auto;
+		   padding:15px;
+		   text-align:center;
+		   border-style:groove;
+		   border-color:white;
+		   border-width:10px;
+		   background:white;
+		   
+		  	  }
+				  
+	
+	  #mainnav a {
+		  text-decoration: none;
+			 
+	  }
+	  
+	  #mainnav a:link{
+		  color: black;
+		  font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+		  text-align: center;
+		    }
+	  #mainnav a:visited{
+		  color:green;
+		  font-family: "century gothic", consolas, helvetica, arial,
+		  sans-serif;
+		  text-align: center;
+	  }
+	  #mainnav a:hover{
+		  color: gray;
+		  font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+		  text-align: center;
+	  }
+	  #mainnav a:active{
+		  color: LawnGreen;
+		  font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+		  text-align: center;
+	  }
+	  
+	  #mainnav li{
+		  display:inline;
+		  list-style-type:none;
+		  padding:0.25em;	
+		  text-align:center;
+		  margin-left:auto;
+		  margin-right:auto;
+		  margin-top:10px;	  
+	  }
+	  
+	  #skipnav{
+		 width: auto;
+		 color: white;
+		 font-weight:bold;
+		 		  }
+	
+	   
+	  
+	  /*Page Navigation*/
+	  
+	  #pagenave a{
+		  text-decoration:none;
+		  list-style-type:none;
+	  }
+	  #pagenav li{
+		  width:auto;
+		  display:inline;
+		  padding: 0.5em;
+		  list-style-type:none;
+		   }
+		   
+	  #pagenav{
+		  text-align:center;
+		  font-size: 13px;
+		  margin-left:auto;
+		  margin-right:auto;
+		  margin-top:16px;
+		  padding:10px;
+	  }
+	   #pagenav a:link{
+		  color: black;
+		  font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+		  font-weight: bold;
+		 }
+	  #pagenav a:visited{
+		  color: green;
+		  font-family: "century gothic", consolas, helvetica, arial,
+		  sans-serif;
+	  }
+	  #pagenav a:hover{
+		  color: gray;
+		  font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+	  }
+	  #pagenav a:active{
+		  color: lawnGreen;
+		  font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+	  }
+	  .toplink{
+		 font-family: "lucida calligraphy", "lucida handwriting",  serif;
+		 font-size: 1em;
+		 text-align:center;
+		 padding:5px;
+	  }
+	  
+	  	  
+	  /*Photographs*/
+	  
+	  #figmain{
+	text-align: center;
+	padding: 20px;
+	font-family: "cac_champagneregular", "times new roman", serif;
+	font-size: 2.25em;
+	color: Black;
+	width: 40%;
+	margin: 10% auto;
+	  }
+	  
+	  #figorch1{
+	display: inline;
+	text-align: center;
+	padding: 20px;
+	font-family: "cac_champagneregular", "times new roman", serif;
+	font-size: 1.75em;
+	color: Black;
+	width: 25%;
+	position:absolute;
+	clear:both;
+	margin: 30px auto auto -10px;
+	float:left;
+	  }
+
+ #figorch2{
+	display: inline;
+	text-align: center;
+	padding: 20px;
+	font-family: "cac_champagneregular", "times new roman", serif;
+	font-size: 1.75em;
+	color: Black;
+	width: 25%;
+	position: absolute;
+	margin:30px 30px auto 320px;
+	  }
+		  
+  #figorch3{
+	display: inline;
+	float:right;
+	text-align: center;
+	padding: 20px;
+	font-family: "cac_champagneregular", "times new roman", serif;
+	font-size: 1.75em;
+	color: Black;
+	width: 25%;
+	position: relative;
+	margin: 30px auto;
+	  }
+	  
+	  #figtime{
+	display:inline-block;
+	float: left;
+	text-align: center;
+	margin: 6% 125% auto -8%;
+    padding: 10px;
+	font-family: "cac_champagneregular", "times new roman", serif;
+	font-size: 1.5em;
+	color: black;
+	width: 30%;
+	position: absolute;
+	  }
+	  
+	  #figmc{
+
+	display: block;
+	float: right;
+	text-align: center;
+	margin: 5% 30% auto 50%;
+    padding: 20px;
+	font-family: "cac_champagneregular", "times new roman", serif;
+	font-size: 1.5em;
+	color: black;
+	width: 30%;
+	position: absolute;
+	  }
+	  
+	  #figgen{
+	display: block;
+	float: left;
+	padding:20px;
+	text-align: center;
+	margin: 20% 130% auto -8%;
+    font-family: "cac_champagneregular", "times new roman", serif;
+	font-size: 1.5em;
+	color: black;
+	width: 30%;
+	position: absolute;
+	  }
+	  
+	  #figcontact{
+	display: inline;
+	float: left;
+	text-align: center;
+	margin: 0 10% auto 30%;
+    padding: 0;
+	font-family: "cac_champagneregular", "times new roman", serif;
+	font-size: 1.5em;
+	color: black;
+	width: 30%;
+	position: relative;
+	  }
+	  
+	  #email{
+		  font-size: 0.75em;
+		  font-family: "century gothic", consolas, helvetica, arial, sans-serif;
+		  text-align:center;
+		  color:white;
+		  padding:0.5em;
+	  }
+  
+	  
+	  
+	  table{
+		  width:60%;
+		  margin: 5% auto;
+		  padding: 70px;
+		  border-collapse:collapse;
+		  color:#0B3B0B;
+		  font-family:"century gothic", consolas, helvetica, arial, sans-serif;
+		   border:3px groove white;
+		   position:relative;
+	  }
+	  
+	  td{
+		  border: 2px solid #848484;
+		  padding: 0.25em;
+	  }
+	  th{
+		  border: 4px groove white;
+		  padding: 0.25em;
+		  
+		 }
+		.firstrows{
+			background:white;
+			color: DarkGreen;
+			text-align:center;
+			font-weight:bold;
+		}
+		.tabletext{
+			font-family: "cac_champagneregular", "times new roman", serif;
+	          font-size: 2em;
+			  color: #0B610B;
+			  background: LightGray;
+			
+		}
+
+	  /*Amy Gabbert html5 Unit C*/
